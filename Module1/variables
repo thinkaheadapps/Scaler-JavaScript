@@ -1,0 +1,7 @@
+var a = 10
+var greeting = "Hello World"
+console.log(a)
+console.log(greeting)
+//Dynamic and static typed
+
+//
