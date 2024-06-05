@@ -44,4 +44,12 @@ let transactionsInDollar = transactions.map((num)=> {
 
 console.log(transactionsInDollar);
 
+// Another Higher Odrer Function - forEach
+//  forEach function does not return any value.
+
+let transactionsInDollar1 = transactions.forEach((num)=> {
+    console.log((inrToDollar * num).toFixed(0) );
+})
+// It does not return object or array. Returns single value
+console.log(transactionsInDollar1)
 
