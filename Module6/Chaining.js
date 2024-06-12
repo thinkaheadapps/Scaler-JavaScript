@@ -30,3 +30,11 @@ let malesChaining = arr.filter(function(obj){
 });
 
 console.log(malesChaining);
+
+/*
+From the transations array filter out positive Element and Calculate the amount 
+Use filter and Reduce to Achive this.
+*/
+
+
+const transactions = [1000,2000,3000,4000,-898, 3800, -4500];
